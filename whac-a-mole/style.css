@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(26, 26, 26);
+}
+
+header{
+    text-align: center;
+    color: rgb(176, 173, 173);
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    column-gap: 25px;
+    row-gap: 25px;
+    justify-content: center;
+}
+
+.doboz{
+    background-color:gray;
+    transition: 0.25s;
+    box-shadow: 1px 1px 5px rgb(77, 77, 77);
+    border-radius: 5px;
+}
+
+.doboz:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.szines{
+    background-color: rgb(150, 190, 150);
+}
+.szines:hover{
+    background-color: rgb(215, 255, 220);
+}
