@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(26,26,26);
+    color: rgb(176, 173, 173);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;  
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    min-height: 100px;
+}
+
+div{
+    font-size: 14pt;
+    color: rgb(200, 198, 198);
+    text-align: center;
+}
+#src{
+    font-size: 10pt;
+    color: gray;
+}
+button{
+    padding: 10px;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 12pt;
+    box-shadow: 1px 1px 5px rgb(77, 77, 77);
+}
+button:hover{
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(36, 36, 36);
+    padding: 10px;
+    text-align: center;
+    color: rgb(237, 237, 237);
+    min-height: 50px;
+}
